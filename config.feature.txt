@@ -25,3 +25,10 @@ Critérios de Aceitação: 3 –Quando eu clicar no botão “limpar” deve vol
 Dado que meu carrinho esteja cheio
 Quando eu clicar no botão limpar 
 Então deve esvaziar o carrinho
+
+Exemplos:
+|cor|tamanho|quantidade|resultado|
+|roxo|GG|2|compra realizada|
+|não escolhido|M|4|não foi possivel realizar a compra|
+|azul|não escolhido|5|não foi possivel realizar a compra|
+|bege|p|nçao escolhido|não foi possivel realizar a compra|
